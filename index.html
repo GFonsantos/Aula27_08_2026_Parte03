@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <title>Gilson Fonsantos       
         </title>
         <style>
-
+            h1 {
+                text-align: center;
+                padding: 10px;
+                font-size: 80px;
+                font-family: 'Raleway', sans-serif;
+            }
+            h2 {
+                text-align: center;
+                padding: 10px;
+                font-size: 30px;
+                font-family: 'Raleway', sans-serif;
+            }
+            #main-container {
+                width: 80%;
+                margin: 0 auto;
+            }
+            p {
+                text-align: justify;
+                font-size: 13pt;
+                font-family: 'Raleway', sans-serif;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .area-botoes {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                margin-top: 30px;
+            }
+            .meu-botao {
+                background-color: #4CAF50; 
+                border-radius: 5px;
+            }
+            .meu-botao-cur {
+                background-color: #5e5f5e; 
+                border-radius: 5px;
+            }
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                padding: 20px 20px;
+                font-family: 'Raleway', sans-serif;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 20px;
+            }
         </style>
         <body>
             <div id="header">
-                <h1>Sobre Mim</h1>
+                <h1 align="center">Sobre Mim</h1>
             </div>
             <div id="main-container">
                 <p>Sou uma pessoa movida pela curiosidade e pela vontade 
@@ -21,11 +76,13 @@
                 que o conhecimento só tem valor quando é compartilhado. 
                 Sou persistente, gosto de desafios e não abandono fácil o 
                 que importa.</p>
-                <h2>HTML Image</h2>
-                <img src="img/tropical.jpg" alt="Trulli" width="500" height="333">
+                <h2 align="center">Setup</h2>
+                <img src="img/tropical.jpg" alt="Trulli" width="600" height="333">
                 <hr>
-                <a href="pag/01/pag01.html">NEXT</a>
-
+                <div class="area-botoes">
+                    <a href="pag/01/pag01.html" class="meu-botao">Próxima Página</a>
+                    <a href="pag/curriculo.html" class="meu-botao-cur">Acesse meu currículo</a>  
+                </div>
             </div>
         </body>
     </head>

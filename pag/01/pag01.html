@@ -1,26 +1,96 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>"O Gato e a Tarde"       
+        <title>"Análise e Desenvolvimento de Sistemas"       
         </title>
         <style>
+            h1{
+                text-align: center;
+                font-size: 55px;
+                font-family: 'Raleway', sans-serif;
+                margin:0 auto;
+                padding: 20px;
+                width: 80%;
+            }
+            #main-container {
+                width: 80%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            p {
+                text-align: justify;
+                font-size: 13pt;
+                font-family: 'Raleway', sans-serif;
+            }
+            .Titulo-lista {
+                font-weight: bold;
+            }
+            ul {
+                list-style-type: disc;
+                margin-left: 20px;
+                font-size: 13pt;
+                font-family: 'Raleway', sans-serif;
+            }
+            li {
+                margin-bottom: 10px;
+            }
+            .area-botoes {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                margin-top: 30px;
+            }
+            .meu-botao {
+                background-color: #4CAF50; 
+                border-radius: 5px;
+            }
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                padding: 20px 20px;
+                font-family: 'Raleway', sans-serif;
+            }
 
         </style>
         <body>
             <div id="header">
-                <h1>"O Gato e a Tarde"</h1>
+                <h1>"Análise e Desenvolvimento de Sistemas (ADS)"</h1>
             </div>
             <div id="main-container">
-                <p>Tinha um gato. Não era qualquer gato — era daqueles que olham para você como se 
-                    soubessem de todos os seus segredos, mas que, ao menor sinal de carinho, se 
-                    derretem num ronronar que parece um motor de Fusca antigo. Ele não tinha nome 
-                    de verdade, mas a gente chamava de "Café", porque era da cor da manhã e amava 
-                    dormir no meio do teclado enquanto eu tentava codar. Ele não entendia de if 
-                    nem de for, mas entendia de presença. Deitava no meu colo, fechava os olhos, e 
-                    ali, no meio do caos do mundo, me lembrava que às vezes a melhor coisa que a 
-                    gente pode fazer é apenas parar e deixar o ronronar te levar."</p>
-                    <a href="../../index.html">NEXT</a>
-                <a href="pag02.html">PRÓX</a>
+                <p> É uma graduação de nível superior (tecnólogo) 
+                    com duração média de 2 a 3 anos, focada em preparar profissionais rapidamente para o mercado 
+                    de tecnologia. Diferente de turmas de Ciência da Computação, que mergulham fundo na base 
+                    teórica e matemática, ADS vai direto ao ponto: ensinar a projetar, construir, testar e 
+                    manter softwares.</p>
+
+                    <p class="Titulo-lista">O que você estuda na prática</p>
+
+                     <ul>
+                        <li>Lógica e Linguagens de Programação: fundação do código, passando por linguagens amplamente 
+                        utilizadas pelo mercado, como JavaScript, Python, Java ou C#.</li>
+                        <li>Desenvolvimento Web e Mobile: A criação de aplicativos para celulares e sistemas completos 
+                        para navegadores, entendendo tanto a interface do usuário (Front-end) quanto as regras de negócio 
+                        nos servidores (Back-end).</li>
+                        <li>Banco de Dados: Técnicas de modelagem para armazenar, organizar e consultar grandes volumes 
+                        de informação de forma rápida e segura, usando SQL e NoSQL.</li>
+                        <li> de Software e Agilidade: Como estruturar o ciclo de vida de um sistema e 
+                        trabalhar em equipe utilizando metodologias modernas, como Scrum e Kanban.</li>
+                    </ul>
+
+                    <p class="Titulo-lista">Mercado de Trabalho</p>
+                    <p>A demanda por desenvolvedores e analistas segue aquecida de forma global. Como a transformação 
+                    digital atinge todos os setores, as vagas não se limitam a empresas de tecnologia e startups; 
+                    bancos, indústrias, agronegócio e varejo competem pelos mesmos talentos.</p>
+
+                    <p> Os formandos assumem rapidamente posições como Desenvolvedores (Júnior a Sênior ao longo da carreira), 
+                    Analistas de Qualidade de Software (QA, focados em testes) ou Administradores de Banco de Dados. A 
+                    área também é conhecida por oferecer uma das maiores flexibilidades do mercado moderno, com oportunidades 
+                    frequentes de trabalho 100% remoto, inclusive para empresas do exterior."</p>
+                    <div class="area-botoes">
+                        <a href="../../index.html" class="meu-botao">VOLTAR PÁGINA</a>
+                        <a href="pag02.html" class="meu-botao">PRÓXIMA PÁGINA</a>
+                    </div>
             </div>
         </body>
     </head>

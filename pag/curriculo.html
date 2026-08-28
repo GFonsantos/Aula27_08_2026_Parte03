@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0 auto;
+            padding: 0;
+            
+        }
+
+        #header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        #profile-image {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            border: 5px solid #999;
+        }
+
+        #main-content {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: auto;
+            width: 960px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+        .colunas {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        a {
+            font-weight: 300;
+        }
+        .texto{
+            padding-left: 15px;
+            width: 40%;
+            justify-content: center;
+        }
+        .image {
+            padding-right: 15px;
+        }
+        hr {
+            margin-top: -15px;
+        }
+        .area-botoes {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                margin-top: 30px;
+            }
+            .meu-botao {
+                background-color: #6a6b6a; 
+                border-radius: 5px;
+            }
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                padding: 10px 10px;
+                font-family: 'Raleway', sans-serif;
+            }
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Gilson Fonsantos</h1>
+        
+    </div>
+    <div id="main-content">
+        <div class="colunas">
+            <div class="texto">
+                <h2>Dados Pessoais</h2>
+                <hr>
+                <p><b>Nome:</b> Gilson Fonsantos</p>
+                <p><b>E-mail:</b> fonsantos@example.com</p>
+                <p><b>Telefone:</b> (48) 9948-7890</p>
+
+                <h2>Experiência Profissional</h2>
+                <hr>
+                <p><b> Designer</b></p>
+                <p><b> Fonsantos Aluno ME</b></p>
+                <p><b>Descrição:</b> Fazedor de curriculos em html.</p>
+
+                <h2>Formação Acadêmica</h2>
+                <hr>
+                <p><b>Curso:</b> ADS 1º Fase</p>
+                <p><b>Instituição:</b> FMPSC</p>
+                <p><b>Ano de Conclusão:</b> 2028</p>
+            </div>
+                <div class="image">
+                    <img id="profile-image" src="../img/foto.png" alt="Foto de Perfil">
+                </div>
+        </div>  
+        <hr>
+        <div class="area-botoes">
+            <a href="../index.html" class="meu-botao">Voltar para a página inicial</a>
+        </div>  
+        </div>
+
+</body>
+</html>
